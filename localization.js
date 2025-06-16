@@ -56,8 +56,6 @@ translateToEn = () => {
     translatePage(en_translations);
 }
 
-translateToCs();
-
 var language = window.navigator.userLanguage || window.navigator.language;
 if (language == 'cs') {
     translateToCs();
